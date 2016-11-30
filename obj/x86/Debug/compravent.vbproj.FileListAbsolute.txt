@@ -1,0 +1,9 @@
+D:\comsistems\bin\Debug\compravent.exe
+D:\comsistems\bin\Debug\compravent.pdb
+D:\comsistems\bin\Debug\compravent.xml
+D:\comsistems\obj\x86\Debug\compravent.Form1.resources
+D:\comsistems\obj\x86\Debug\compravent.Resources.resources
+D:\comsistems\obj\x86\Debug\compravent.vbproj.GenerateResource.Cache
+D:\comsistems\obj\x86\Debug\compravent.exe
+D:\comsistems\obj\x86\Debug\compravent.xml
+D:\comsistems\obj\x86\Debug\compravent.pdb
