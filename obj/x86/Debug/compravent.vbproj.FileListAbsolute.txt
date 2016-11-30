@@ -7,3 +7,6 @@ D:\comsistems\obj\x86\Debug\compravent.vbproj.GenerateResource.Cache
 D:\comsistems\obj\x86\Debug\compravent.exe
 D:\comsistems\obj\x86\Debug\compravent.xml
 D:\comsistems\obj\x86\Debug\compravent.pdb
+D:\compravent\compravent\obj\x86\Debug\compravent.exe
+D:\compravent\compravent\obj\x86\Debug\compravent.xml
+D:\compravent\compravent\obj\x86\Debug\compravent.pdb
