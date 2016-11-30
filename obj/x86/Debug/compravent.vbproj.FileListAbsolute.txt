@@ -15,6 +15,7 @@ D:\compravent\compravent\bin\Debug\compravent.pdb
 D:\compravent\compravent\bin\Debug\compravent.xml
 D:\compravent\compravent\obj\x86\Debug\compravent.cliente.resources
 D:\compravent\compravent\obj\x86\Debug\compravent.CMprincipal.resources
-D:\compravent\compravent\obj\x86\Debug\compravent.Form1.resources
 D:\compravent\compravent\obj\x86\Debug\compravent.Resources.resources
 D:\compravent\compravent\obj\x86\Debug\compravent.vbproj.GenerateResource.Cache
+D:\compravent\compravent\obj\x86\Debug\compravent.Login.resources
+D:\compravent\compravent\obj\x86\Debug\compravent.rusuario.resources

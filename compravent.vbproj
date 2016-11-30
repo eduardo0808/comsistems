@@ -84,6 +84,7 @@
     <Compile Include="CMprincipal.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="conexion.vb" />
     <Compile Include="Login.vb">
       <SubType>Form</SubType>
     </Compile>
