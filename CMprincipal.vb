@@ -85,4 +85,8 @@ Public Class CMprincipal
 
     Private m_ChildFormNumber As Integer
 
+    Private Sub HelpToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles HelpToolStripButton.Click
+        cliente.Show()
+
+    End Sub
 End Class
