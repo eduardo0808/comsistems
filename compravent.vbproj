@@ -78,6 +78,12 @@
     <Compile Include="cliente.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CMprincipal.Designer.vb">
+      <DependentUpon>CMprincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CMprincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +110,9 @@
   <ItemGroup>
     <EmbeddedResource Include="cliente.resx">
       <DependentUpon>cliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CMprincipal.resx">
+      <DependentUpon>CMprincipal.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
