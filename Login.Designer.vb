@@ -26,6 +26,8 @@ Partial Class Login
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -60,16 +62,36 @@ Partial Class Login
         Me.TextBox2.Size = New System.Drawing.Size(149, 20)
         Me.TextBox2.TabIndex = 3
         '
-        'Form1
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(88, 183)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(66, 29)
+        Me.Button1.TabIndex = 4
+        Me.Button1.Text = "Entrar"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(172, 187)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(72, 24)
+        Me.Button2.TabIndex = 5
+        Me.Button2.Text = "Salir"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Form1"
+        Me.Name = "Login"
         Me.Text = "Login"
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -79,5 +101,7 @@ Partial Class Login
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
     Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents Button2 As System.Windows.Forms.Button
 
 End Class
