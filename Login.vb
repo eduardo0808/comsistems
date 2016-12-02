@@ -1,12 +1,38 @@
-﻿Public Class Login
+﻿Imports MySql.Data.MySqlClient
+Public Class Login
+    'declaracion de variable  
+    Dim Sql As String 'valieble para query
+    Dim Consulta As MySqlDataAdapter 'variable de consulta a BD
+    Dim Usuario, Clave As String 'variable de asceso
+    Dim i As Integer
+    Dim Datos As DataSet
+    Dim Lista As Byte
 
-    Private Sub Label1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label1.Click
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdEntrar.Click
+        Login()
+    End Sub
+    Private Sub Login()
+        Usuario = txtUsuario.Text
+        Clave = txtClave.Text
 
+        If Usuario <> "" And Clave <> "" Then
+            Sql = "select * from usuario where usuario='" & Usuario & "'and clave='" & Clave & "'"
+            Consulta = New MySqlDataAdapter(Sql, Conex)
+            Datos = New DataSet
+            Consulta.Fill(Datos, "usuario")
+            Lista = Datos.Tables("usuario").Rows.Count
+        End If
+        If Lista <> 0 Then
+            CMprincipal.Show()
+            Me.Hide()
+        Else
+            MsgBox("Incorrecto")
+        End If
     End Sub
 
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        CMprincipal.Show()
-        Me.Hide()
-
+    Private Sub Login_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Conectar()
     End Sub
+
+
 End Class

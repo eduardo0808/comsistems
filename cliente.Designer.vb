@@ -129,7 +129,6 @@ Partial Class cliente
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.IsMdiContainer = True
         Me.Name = "cliente"
         Me.Text = "cliente"
         Me.ResumeLayout(False)
