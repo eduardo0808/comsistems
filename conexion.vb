@@ -7,7 +7,7 @@ Module conexion
         Try
             Conex.ConnectionString = "server=localhost;user id=root; password=''; database=compraventa"
             Conex.Open()
-            ' MsgBox("conexion exitosa")
+            MsgBox("conexion exitosa")
         Catch ex As Exception
             MsgBox(ex.Message)
         End Try
