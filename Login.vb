@@ -36,4 +36,11 @@ Public Class Login
     End Sub
 
 
+    Private Sub txtUsuario_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtUsuario.TextChanged
+
+    End Sub
+
+    Private Sub cmdSalir_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdSalir.Click
+        End
+    End Sub
 End Class
