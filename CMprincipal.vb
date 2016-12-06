@@ -89,4 +89,10 @@ Public Class CMprincipal
         cliente.Show()
 
     End Sub
+
+    Private Sub UsuarioToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles UsuarioToolStripMenuItem.Click
+        Dim usuario As New rusuario
+        usuario.MdiParent = Me
+        usuario.Show()
+    End Sub
 End Class

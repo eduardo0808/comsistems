@@ -28,6 +28,7 @@ Partial Class Login
         Me.txtClave = New System.Windows.Forms.TextBox()
         Me.cmdEntrar = New System.Windows.Forms.Button()
         Me.cmdSalir = New System.Windows.Forms.Button()
+        Me.lblHora = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -81,11 +82,21 @@ Partial Class Login
         Me.cmdSalir.Text = "Salir"
         Me.cmdSalir.UseVisualStyleBackColor = True
         '
+        'lblHora
+        '
+        Me.lblHora.AutoSize = True
+        Me.lblHora.Location = New System.Drawing.Point(159, 34)
+        Me.lblHora.Name = "lblHora"
+        Me.lblHora.Size = New System.Drawing.Size(39, 13)
+        Me.lblHora.TabIndex = 6
+        Me.lblHora.Text = "Label3"
+        '
         'Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 261)
+        Me.Controls.Add(Me.lblHora)
         Me.Controls.Add(Me.cmdSalir)
         Me.Controls.Add(Me.cmdEntrar)
         Me.Controls.Add(Me.txtClave)
@@ -105,5 +116,6 @@ Partial Class Login
     Friend WithEvents txtClave As System.Windows.Forms.TextBox
     Friend WithEvents cmdEntrar As System.Windows.Forms.Button
     Friend WithEvents cmdSalir As System.Windows.Forms.Button
+    Friend WithEvents lblHora As System.Windows.Forms.Label
 
 End Class

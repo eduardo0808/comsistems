@@ -151,7 +151,6 @@ Partial Class rusuario
         Me.Controls.Add(Me.TextBox3)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
-        Me.IsMdiContainer = True
         Me.Name = "rusuario"
         Me.Text = "Actualizar Usuario"
         Me.ResumeLayout(False)
