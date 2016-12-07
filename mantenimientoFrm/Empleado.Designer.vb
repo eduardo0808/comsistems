@@ -30,25 +30,25 @@ Partial Class Empleado
         Me.txtapellidoEm = New System.Windows.Forms.TextBox()
         Me.txtcedulaEm = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.txtusuarioEm = New System.Windows.Forms.TextBox()
-        Me.txtclaveEm = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
+        Me.txtclaveEm = New System.Windows.Forms.TextBox()
+        Me.txtusuarioEm = New System.Windows.Forms.TextBox()
         Me.btnGuardarEm = New System.Windows.Forms.Button()
         Me.btnCancelarEm = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
@@ -133,80 +133,21 @@ Partial Class Empleado
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Dirección"
         '
-        'ComboBox1
+        'Label3
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(90, 19)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(90, 21)
-        Me.ComboBox1.TabIndex = 0
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(410, 130)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(31, 13)
+        Me.Label3.TabIndex = 11
+        Me.Label3.Text = "Casa"
         '
-        'ComboBox2
+        'TextBox2
         '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(90, 55)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox2.TabIndex = 1
-        '
-        'ComboBox3
-        '
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(90, 87)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox3.TabIndex = 2
-        '
-        'ComboBox4
-        '
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Location = New System.Drawing.Point(90, 118)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox4.TabIndex = 3
-        '
-        'Label9
-        '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(23, 27)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(27, 13)
-        Me.Label9.TabIndex = 4
-        Me.Label9.Text = "Pais"
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(23, 55)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(51, 13)
-        Me.Label10.TabIndex = 5
-        Me.Label10.Text = "Provincia"
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(23, 90)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(52, 13)
-        Me.Label11.TabIndex = 6
-        Me.Label11.Text = "Municipio"
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(23, 126)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(38, 13)
-        Me.Label12.TabIndex = 7
-        Me.Label12.Text = "Sector"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(273, 123)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 8
+        Me.TextBox2.Location = New System.Drawing.Point(480, 123)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox2.TabIndex = 10
         '
         'Label2
         '
@@ -217,21 +158,80 @@ Partial Class Empleado
         Me.Label2.TabIndex = 9
         Me.Label2.Text = "Calle"
         '
-        'TextBox2
+        'TextBox1
         '
-        Me.TextBox2.Location = New System.Drawing.Point(480, 123)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 10
+        Me.TextBox1.Location = New System.Drawing.Point(273, 123)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.TabIndex = 8
         '
-        'Label3
+        'Label12
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(410, 130)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(31, 13)
-        Me.Label3.TabIndex = 11
-        Me.Label3.Text = "Casa"
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(23, 126)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(38, 13)
+        Me.Label12.TabIndex = 7
+        Me.Label12.Text = "Sector"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(23, 90)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(52, 13)
+        Me.Label11.TabIndex = 6
+        Me.Label11.Text = "Municipio"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(23, 55)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(51, 13)
+        Me.Label10.TabIndex = 5
+        Me.Label10.Text = "Provincia"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(23, 27)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(27, 13)
+        Me.Label9.TabIndex = 4
+        Me.Label9.Text = "Pais"
+        '
+        'ComboBox4
+        '
+        Me.ComboBox4.FormattingEnabled = True
+        Me.ComboBox4.Location = New System.Drawing.Point(90, 118)
+        Me.ComboBox4.Name = "ComboBox4"
+        Me.ComboBox4.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox4.TabIndex = 3
+        '
+        'ComboBox3
+        '
+        Me.ComboBox3.FormattingEnabled = True
+        Me.ComboBox3.Location = New System.Drawing.Point(90, 87)
+        Me.ComboBox3.Name = "ComboBox3"
+        Me.ComboBox3.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox3.TabIndex = 2
+        '
+        'ComboBox2
+        '
+        Me.ComboBox2.FormattingEnabled = True
+        Me.ComboBox2.Location = New System.Drawing.Point(90, 55)
+        Me.ComboBox2.Name = "ComboBox2"
+        Me.ComboBox2.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox2.TabIndex = 1
+        '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(90, 19)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(90, 21)
+        Me.ComboBox1.TabIndex = 0
         '
         'Label4
         '
@@ -255,26 +255,12 @@ Partial Class Empleado
         Me.GroupBox2.Controls.Add(Me.Label13)
         Me.GroupBox2.Controls.Add(Me.txtclaveEm)
         Me.GroupBox2.Controls.Add(Me.txtusuarioEm)
-        Me.GroupBox2.Location = New System.Drawing.Point(374, 21)
+        Me.GroupBox2.Location = New System.Drawing.Point(346, 21)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(248, 103)
+        Me.GroupBox2.Size = New System.Drawing.Size(276, 103)
         Me.GroupBox2.TabIndex = 15
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Usuario"
-        '
-        'txtusuarioEm
-        '
-        Me.txtusuarioEm.Location = New System.Drawing.Point(87, 19)
-        Me.txtusuarioEm.Name = "txtusuarioEm"
-        Me.txtusuarioEm.Size = New System.Drawing.Size(100, 20)
-        Me.txtusuarioEm.TabIndex = 0
-        '
-        'txtclaveEm
-        '
-        Me.txtclaveEm.Location = New System.Drawing.Point(87, 56)
-        Me.txtclaveEm.Name = "txtclaveEm"
-        Me.txtclaveEm.Size = New System.Drawing.Size(100, 20)
-        Me.txtclaveEm.TabIndex = 1
         '
         'Label7
         '
@@ -293,6 +279,20 @@ Partial Class Empleado
         Me.Label13.Size = New System.Drawing.Size(34, 13)
         Me.Label13.TabIndex = 13
         Me.Label13.Text = "Clave"
+        '
+        'txtclaveEm
+        '
+        Me.txtclaveEm.Location = New System.Drawing.Point(87, 56)
+        Me.txtclaveEm.Name = "txtclaveEm"
+        Me.txtclaveEm.Size = New System.Drawing.Size(100, 20)
+        Me.txtclaveEm.TabIndex = 1
+        '
+        'txtusuarioEm
+        '
+        Me.txtusuarioEm.Location = New System.Drawing.Point(87, 19)
+        Me.txtusuarioEm.Name = "txtusuarioEm"
+        Me.txtusuarioEm.Size = New System.Drawing.Size(100, 20)
+        Me.txtusuarioEm.TabIndex = 0
         '
         'btnGuardarEm
         '
