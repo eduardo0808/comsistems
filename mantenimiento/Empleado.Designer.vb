@@ -41,7 +41,7 @@ Partial Class Empleado
         Me.ComboBox4 = New System.Windows.Forms.ComboBox()
         Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.cbpaisEm = New System.Windows.Forms.ComboBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
@@ -125,7 +125,7 @@ Partial Class Empleado
         Me.GroupBox1.Controls.Add(Me.ComboBox4)
         Me.GroupBox1.Controls.Add(Me.ComboBox3)
         Me.GroupBox1.Controls.Add(Me.ComboBox2)
-        Me.GroupBox1.Controls.Add(Me.ComboBox1)
+        Me.GroupBox1.Controls.Add(Me.cbpaisEm)
         Me.GroupBox1.Location = New System.Drawing.Point(36, 123)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(586, 168)
@@ -225,13 +225,13 @@ Partial Class Empleado
         Me.ComboBox2.Size = New System.Drawing.Size(121, 21)
         Me.ComboBox2.TabIndex = 1
         '
-        'ComboBox1
+        'cbpaisEm
         '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(90, 19)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(90, 21)
-        Me.ComboBox1.TabIndex = 0
+        Me.cbpaisEm.FormattingEnabled = True
+        Me.cbpaisEm.Location = New System.Drawing.Point(90, 19)
+        Me.cbpaisEm.Name = "cbpaisEm"
+        Me.cbpaisEm.Size = New System.Drawing.Size(245, 21)
+        Me.cbpaisEm.TabIndex = 0
         '
         'Label4
         '
@@ -359,7 +359,7 @@ Partial Class Empleado
     Friend WithEvents ComboBox4 As System.Windows.Forms.ComboBox
     Friend WithEvents ComboBox3 As System.Windows.Forms.ComboBox
     Friend WithEvents ComboBox2 As System.Windows.Forms.ComboBox
-    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents cbpaisEm As System.Windows.Forms.ComboBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
     Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox

@@ -10,6 +10,7 @@ Public Class Login
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles cmdEntrar.Click
         Login()
+        CMprincipal.Show()
     End Sub
     Private Sub Login()
         Usuario = txtUsuario.Text

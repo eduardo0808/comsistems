@@ -76,10 +76,10 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="mantenimientoFrm\cliente.Designer.vb">
+    <Compile Include="mantenimiento\cliente.Designer.vb">
       <DependentUpon>cliente.vb</DependentUpon>
     </Compile>
-    <Compile Include="mantenimientoFrm\cliente.vb">
+    <Compile Include="mantenimiento\cliente.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CMprincipal.Designer.vb">
@@ -88,7 +88,7 @@
     <Compile Include="CMprincipal.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="funcionesP\conexion.vb" />
+    <Compile Include="funciones\conexion.vb" />
     <Compile Include="Login.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -96,10 +96,10 @@
       <DependentUpon>Login.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="mantenimientoFrm\Empleado.Designer.vb">
+    <Compile Include="mantenimiento\Empleado.Designer.vb">
       <DependentUpon>Empleado.vb</DependentUpon>
     </Compile>
-    <Compile Include="mantenimientoFrm\Empleado.vb">
+    <Compile Include="mantenimiento\Empleado.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -117,16 +117,16 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="RegistrosMd\RegistroCliente.vb" />
-    <Compile Include="mantenimientoFrm\rusuario.Designer.vb">
+    <Compile Include="Registros\RegistroCliente.vb" />
+    <Compile Include="mantenimiento\rusuario.Designer.vb">
       <DependentUpon>rusuario.vb</DependentUpon>
     </Compile>
-    <Compile Include="mantenimientoFrm\rusuario.vb">
+    <Compile Include="mantenimiento\rusuario.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="mantenimientoFrm\cliente.resx">
+    <EmbeddedResource Include="mantenimiento\cliente.resx">
       <DependentUpon>cliente.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CMprincipal.resx">
@@ -135,7 +135,7 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="mantenimientoFrm\Empleado.resx">
+    <EmbeddedResource Include="mantenimiento\Empleado.resx">
       <DependentUpon>Empleado.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -144,7 +144,7 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="mantenimientoFrm\rusuario.resx">
+    <EmbeddedResource Include="mantenimiento\rusuario.resx">
       <DependentUpon>rusuario.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
@@ -162,9 +162,7 @@
   <ItemGroup>
     <None Include="Resources\fondo_login.png" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\fondoform.png" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

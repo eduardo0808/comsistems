@@ -115,4 +115,10 @@ Public Class CMprincipal
         frmusuario.MdiParent = Me
         frmusuario.Show()
     End Sub
+
+    Private Sub NuevoToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles NuevoToolStripMenuItem.Click
+        Dim frmempleado As New Empleado
+        frmempleado.MdiParent = Me
+        frmempleado.Show()
+    End Sub
 End Class
