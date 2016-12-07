@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class cliente
+Partial Class Cliente
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -31,18 +31,18 @@ Partial Class cliente
         Me.txtcedulaCli = New System.Windows.Forms.TextBox()
         Me.txttelefonoCli = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.cbpaisCli = New System.Windows.Forms.ComboBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.cbprovinciaCli = New System.Windows.Forms.ComboBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.cbmunicipioCli = New System.Windows.Forms.ComboBox()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.cbsectorCli = New System.Windows.Forms.ComboBox()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.txtcalleCli = New System.Windows.Forms.TextBox()
         Me.txtcasaCli = New System.Windows.Forms.TextBox()
         Me.Label10 = New System.Windows.Forms.Label()
+        Me.txtcalleCli = New System.Windows.Forms.TextBox()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.cbsectorCli = New System.Windows.Forms.ComboBox()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.cbmunicipioCli = New System.Windows.Forms.ComboBox()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.cbprovinciaCli = New System.Windows.Forms.ComboBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.cbpaisCli = New System.Windows.Forms.ComboBox()
         Me.btnguardarCli = New System.Windows.Forms.Button()
         Me.btncancelarCli = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
@@ -133,56 +133,37 @@ Partial Class cliente
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Direccion"
         '
-        'cbpaisCli
+        'txtcasaCli
         '
-        Me.cbpaisCli.FormattingEnabled = True
-        Me.cbpaisCli.Location = New System.Drawing.Point(79, 27)
-        Me.cbpaisCli.Name = "cbpaisCli"
-        Me.cbpaisCli.Size = New System.Drawing.Size(302, 21)
-        Me.cbpaisCli.TabIndex = 0
+        Me.txtcasaCli.Location = New System.Drawing.Point(79, 166)
+        Me.txtcasaCli.Name = "txtcasaCli"
+        Me.txtcasaCli.Size = New System.Drawing.Size(202, 20)
+        Me.txtcasaCli.TabIndex = 13
         '
-        'Label5
+        'Label10
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(15, 29)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(27, 13)
-        Me.Label5.TabIndex = 1
-        Me.Label5.Text = "Pais"
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(15, 173)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(31, 13)
+        Me.Label10.TabIndex = 12
+        Me.Label10.Text = "Casa"
         '
-        'Label6
+        'txtcalleCli
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(15, 59)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(51, 13)
-        Me.Label6.TabIndex = 3
-        Me.Label6.Text = "Provincia"
+        Me.txtcalleCli.Location = New System.Drawing.Point(79, 140)
+        Me.txtcalleCli.Name = "txtcalleCli"
+        Me.txtcalleCli.Size = New System.Drawing.Size(202, 20)
+        Me.txtcalleCli.TabIndex = 11
         '
-        'cbprovinciaCli
+        'Label9
         '
-        Me.cbprovinciaCli.FormattingEnabled = True
-        Me.cbprovinciaCli.Location = New System.Drawing.Point(79, 54)
-        Me.cbprovinciaCli.Name = "cbprovinciaCli"
-        Me.cbprovinciaCli.Size = New System.Drawing.Size(302, 21)
-        Me.cbprovinciaCli.TabIndex = 2
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(15, 88)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(52, 13)
-        Me.Label7.TabIndex = 5
-        Me.Label7.Text = "Municipio"
-        '
-        'cbmunicipioCli
-        '
-        Me.cbmunicipioCli.FormattingEnabled = True
-        Me.cbmunicipioCli.Location = New System.Drawing.Point(79, 83)
-        Me.cbmunicipioCli.Name = "cbmunicipioCli"
-        Me.cbmunicipioCli.Size = New System.Drawing.Size(302, 21)
-        Me.cbmunicipioCli.TabIndex = 4
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(15, 147)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(30, 13)
+        Me.Label9.TabIndex = 8
+        Me.Label9.Text = "Calle"
         '
         'Label8
         '
@@ -201,37 +182,56 @@ Partial Class cliente
         Me.cbsectorCli.Size = New System.Drawing.Size(302, 21)
         Me.cbsectorCli.TabIndex = 6
         '
-        'Label9
+        'Label7
         '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(15, 147)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(30, 13)
-        Me.Label9.TabIndex = 8
-        Me.Label9.Text = "Calle"
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(15, 88)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(52, 13)
+        Me.Label7.TabIndex = 5
+        Me.Label7.Text = "Municipio"
         '
-        'txtcalleCli
+        'cbmunicipioCli
         '
-        Me.txtcalleCli.Location = New System.Drawing.Point(79, 140)
-        Me.txtcalleCli.Name = "txtcalleCli"
-        Me.txtcalleCli.Size = New System.Drawing.Size(202, 20)
-        Me.txtcalleCli.TabIndex = 11
+        Me.cbmunicipioCli.FormattingEnabled = True
+        Me.cbmunicipioCli.Location = New System.Drawing.Point(79, 83)
+        Me.cbmunicipioCli.Name = "cbmunicipioCli"
+        Me.cbmunicipioCli.Size = New System.Drawing.Size(302, 21)
+        Me.cbmunicipioCli.TabIndex = 4
         '
-        'txtcasaCli
+        'Label6
         '
-        Me.txtcasaCli.Location = New System.Drawing.Point(79, 166)
-        Me.txtcasaCli.Name = "txtcasaCli"
-        Me.txtcasaCli.Size = New System.Drawing.Size(202, 20)
-        Me.txtcasaCli.TabIndex = 13
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(15, 59)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(51, 13)
+        Me.Label6.TabIndex = 3
+        Me.Label6.Text = "Provincia"
         '
-        'Label10
+        'cbprovinciaCli
         '
-        Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(15, 173)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(31, 13)
-        Me.Label10.TabIndex = 12
-        Me.Label10.Text = "Casa"
+        Me.cbprovinciaCli.FormattingEnabled = True
+        Me.cbprovinciaCli.Location = New System.Drawing.Point(79, 54)
+        Me.cbprovinciaCli.Name = "cbprovinciaCli"
+        Me.cbprovinciaCli.Size = New System.Drawing.Size(302, 21)
+        Me.cbprovinciaCli.TabIndex = 2
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(15, 29)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(27, 13)
+        Me.Label5.TabIndex = 1
+        Me.Label5.Text = "Pais"
+        '
+        'cbpaisCli
+        '
+        Me.cbpaisCli.FormattingEnabled = True
+        Me.cbpaisCli.Location = New System.Drawing.Point(79, 27)
+        Me.cbpaisCli.Name = "cbpaisCli"
+        Me.cbpaisCli.Size = New System.Drawing.Size(302, 21)
+        Me.cbpaisCli.TabIndex = 0
         '
         'btnguardarCli
         '
@@ -251,7 +251,7 @@ Partial Class cliente
         Me.btncancelarCli.Text = "Cancelar"
         Me.btncancelarCli.UseVisualStyleBackColor = True
         '
-        'cliente
+        'Cliente
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -267,8 +267,8 @@ Partial Class cliente
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "cliente"
-        Me.Text = "cliente"
+        Me.Name = "Cliente"
+        Me.Text = "Cliente"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)

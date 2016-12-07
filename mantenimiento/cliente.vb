@@ -1,4 +1,4 @@
-﻿Public Class cliente
+﻿Public Class Cliente
 
     Private Sub GroupBox1_Enter(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles GroupBox1.Enter
 
@@ -29,7 +29,7 @@
     End Sub
 
     Private Sub cliente_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-       
+
 
     End Sub
 End Class

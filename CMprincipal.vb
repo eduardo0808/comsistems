@@ -86,7 +86,7 @@ Public Class CMprincipal
     Private m_ChildFormNumber As Integer
 
     Private Sub HelpToolStripButton_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles HelpToolStripButton.Click
-        cliente.Show()
+        Cliente.Show()
 
     End Sub
 
@@ -95,7 +95,7 @@ Public Class CMprincipal
     End Sub
 
     Private Sub ClienteToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ClienteToolStripMenuItem.Click
-        Dim frmcliente As New cliente
+        Dim frmcliente As New Cliente
         frmcliente.MdiParent = Me
         frmcliente.Show()
     End Sub
@@ -105,6 +105,12 @@ Public Class CMprincipal
     End Sub
 
     Private Sub UsuarioToolStripMenuItem1_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles UsuarioToolStripMenuItem1.Click
+        Dim frmusuario As New rusuario
+        frmusuario.MdiParent = Me
+        frmusuario.Show()
+    End Sub
+
+    Private Sub ProveedorToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ProveedorToolStripMenuItem.Click
         Dim frmusuario As New rusuario
         frmusuario.MdiParent = Me
         frmusuario.Show()
