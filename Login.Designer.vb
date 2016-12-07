@@ -32,24 +32,24 @@ Partial Class Login
         '
         Me.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtUsuario.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtUsuario.Location = New System.Drawing.Point(135, 50)
+        Me.txtUsuario.Location = New System.Drawing.Point(135, 62)
         Me.txtUsuario.Name = "txtUsuario"
-        Me.txtUsuario.Size = New System.Drawing.Size(166, 15)
+        Me.txtUsuario.Size = New System.Drawing.Size(157, 15)
         Me.txtUsuario.TabIndex = 2
         '
         'txtClave
         '
         Me.txtClave.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtClave.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtClave.Location = New System.Drawing.Point(134, 91)
+        Me.txtClave.Location = New System.Drawing.Point(134, 103)
         Me.txtClave.Name = "txtClave"
-        Me.txtClave.Size = New System.Drawing.Size(167, 15)
+        Me.txtClave.Size = New System.Drawing.Size(158, 15)
         Me.txtClave.TabIndex = 3
         Me.txtClave.UseSystemPasswordChar = True
         '
         'cmdEntrar
         '
-        Me.cmdEntrar.Location = New System.Drawing.Point(135, 122)
+        Me.cmdEntrar.Location = New System.Drawing.Point(131, 136)
         Me.cmdEntrar.Name = "cmdEntrar"
         Me.cmdEntrar.Size = New System.Drawing.Size(66, 29)
         Me.cmdEntrar.TabIndex = 4
@@ -58,7 +58,7 @@ Partial Class Login
         '
         'cmdSalir
         '
-        Me.cmdSalir.Location = New System.Drawing.Point(219, 122)
+        Me.cmdSalir.Location = New System.Drawing.Point(215, 136)
         Me.cmdSalir.Name = "cmdSalir"
         Me.cmdSalir.Size = New System.Drawing.Size(72, 28)
         Me.cmdSalir.TabIndex = 5
@@ -69,7 +69,7 @@ Partial Class Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Global.compravent.My.Resources.Resources.fondo_login
+        Me.BackgroundImage = Global.compravent.My.Resources.Resources.fondo_login1
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(399, 207)
         Me.Controls.Add(Me.cmdSalir)
