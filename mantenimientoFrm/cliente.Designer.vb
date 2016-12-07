@@ -45,6 +45,8 @@ Partial Class Cliente
         Me.cbpaisCli = New System.Windows.Forms.ComboBox()
         Me.btnguardarCli = New System.Windows.Forms.Button()
         Me.btncancelarCli = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -278,6 +280,25 @@ Partial Class Cliente
         Me.btncancelarCli.Text = "Cancelar"
         Me.btncancelarCli.UseVisualStyleBackColor = True
         '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(98, 156)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.TabIndex = 14
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.BackColor = System.Drawing.Color.Transparent
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.ForeColor = System.Drawing.Color.White
+        Me.Label11.Location = New System.Drawing.Point(12, 159)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(70, 16)
+        Me.Label11.TabIndex = 13
+        Me.Label11.Text = "Telefono"
+        '
         'Cliente
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -285,6 +306,8 @@ Partial Class Cliente
         Me.BackgroundImage = Global.compravent.My.Resources.Resources.fondoform
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(641, 316)
+        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.btncancelarCli)
         Me.Controls.Add(Me.btnguardarCli)
         Me.Controls.Add(Me.GroupBox1)
@@ -330,4 +353,6 @@ Partial Class Cliente
     Friend WithEvents cbpaisCli As System.Windows.Forms.ComboBox
     Friend WithEvents btnguardarCli As System.Windows.Forms.Button
     Friend WithEvents btncancelarCli As System.Windows.Forms.Button
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents Label11 As System.Windows.Forms.Label
 End Class
