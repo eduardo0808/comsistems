@@ -121,9 +121,7 @@
     <Compile Include="mantenimientoFrm\rusuario.Designer.vb">
       <DependentUpon>rusuario.vb</DependentUpon>
     </Compile>
-    <Compile Include="mantenimientoFrm\rusuario.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="mantenimientoFrm\rusuario.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="mantenimientoFrm\cliente.resx">
@@ -164,6 +162,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\fondoform.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_login1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
