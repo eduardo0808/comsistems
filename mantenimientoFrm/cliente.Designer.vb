@@ -51,36 +51,48 @@ Partial Class Cliente
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(12, 44)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(44, 13)
+        Me.Label1.Size = New System.Drawing.Size(63, 16)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Nombre"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(12, 71)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(44, 13)
+        Me.Label2.Size = New System.Drawing.Size(66, 16)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Apellido"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(12, 101)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(40, 13)
+        Me.Label3.Size = New System.Drawing.Size(57, 16)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Cedula"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.White
         Me.Label4.Location = New System.Drawing.Point(12, 129)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(49, 13)
+        Me.Label4.Size = New System.Drawing.Size(70, 16)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Telefono"
         '
@@ -114,6 +126,7 @@ Partial Class Cliente
         '
         'GroupBox1
         '
+        Me.GroupBox1.BackColor = System.Drawing.Color.Transparent
         Me.GroupBox1.Controls.Add(Me.txtcasaCli)
         Me.GroupBox1.Controls.Add(Me.Label10)
         Me.GroupBox1.Controls.Add(Me.txtcalleCli)
@@ -126,6 +139,8 @@ Partial Class Cliente
         Me.GroupBox1.Controls.Add(Me.cbprovinciaCli)
         Me.GroupBox1.Controls.Add(Me.Label5)
         Me.GroupBox1.Controls.Add(Me.cbpaisCli)
+        Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox1.ForeColor = System.Drawing.Color.White
         Me.GroupBox1.Location = New System.Drawing.Point(224, 41)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(387, 200)
@@ -135,102 +150,114 @@ Partial Class Cliente
         '
         'txtcasaCli
         '
-        Me.txtcasaCli.Location = New System.Drawing.Point(79, 166)
+        Me.txtcasaCli.Location = New System.Drawing.Point(91, 166)
         Me.txtcasaCli.Name = "txtcasaCli"
-        Me.txtcasaCli.Size = New System.Drawing.Size(202, 20)
+        Me.txtcasaCli.Size = New System.Drawing.Size(177, 22)
         Me.txtcasaCli.TabIndex = 13
         '
         'Label10
         '
         Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.ForeColor = System.Drawing.Color.White
         Me.Label10.Location = New System.Drawing.Point(15, 173)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(31, 13)
+        Me.Label10.Size = New System.Drawing.Size(44, 16)
         Me.Label10.TabIndex = 12
         Me.Label10.Text = "Casa"
         '
         'txtcalleCli
         '
-        Me.txtcalleCli.Location = New System.Drawing.Point(79, 140)
+        Me.txtcalleCli.Location = New System.Drawing.Point(91, 140)
         Me.txtcalleCli.Name = "txtcalleCli"
-        Me.txtcalleCli.Size = New System.Drawing.Size(202, 20)
+        Me.txtcalleCli.Size = New System.Drawing.Size(177, 22)
         Me.txtcalleCli.TabIndex = 11
         '
         'Label9
         '
         Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.Color.White
         Me.Label9.Location = New System.Drawing.Point(15, 147)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(30, 13)
+        Me.Label9.Size = New System.Drawing.Size(44, 16)
         Me.Label9.TabIndex = 8
         Me.Label9.Text = "Calle"
         '
         'Label8
         '
         Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.Color.White
         Me.Label8.Location = New System.Drawing.Point(15, 118)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(38, 13)
+        Me.Label8.Size = New System.Drawing.Size(53, 16)
         Me.Label8.TabIndex = 7
         Me.Label8.Text = "Sector"
         '
         'cbsectorCli
         '
         Me.cbsectorCli.FormattingEnabled = True
-        Me.cbsectorCli.Location = New System.Drawing.Point(79, 113)
+        Me.cbsectorCli.Location = New System.Drawing.Point(91, 113)
         Me.cbsectorCli.Name = "cbsectorCli"
-        Me.cbsectorCli.Size = New System.Drawing.Size(302, 21)
+        Me.cbsectorCli.Size = New System.Drawing.Size(277, 24)
         Me.cbsectorCli.TabIndex = 6
         '
         'Label7
         '
         Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.Color.White
         Me.Label7.Location = New System.Drawing.Point(15, 88)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(52, 13)
+        Me.Label7.Size = New System.Drawing.Size(74, 16)
         Me.Label7.TabIndex = 5
         Me.Label7.Text = "Municipio"
         '
         'cbmunicipioCli
         '
         Me.cbmunicipioCli.FormattingEnabled = True
-        Me.cbmunicipioCli.Location = New System.Drawing.Point(79, 83)
+        Me.cbmunicipioCli.Location = New System.Drawing.Point(91, 83)
         Me.cbmunicipioCli.Name = "cbmunicipioCli"
-        Me.cbmunicipioCli.Size = New System.Drawing.Size(302, 21)
+        Me.cbmunicipioCli.Size = New System.Drawing.Size(277, 24)
         Me.cbmunicipioCli.TabIndex = 4
         '
         'Label6
         '
         Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.White
         Me.Label6.Location = New System.Drawing.Point(15, 59)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(51, 13)
+        Me.Label6.Size = New System.Drawing.Size(73, 16)
         Me.Label6.TabIndex = 3
         Me.Label6.Text = "Provincia"
         '
         'cbprovinciaCli
         '
         Me.cbprovinciaCli.FormattingEnabled = True
-        Me.cbprovinciaCli.Location = New System.Drawing.Point(79, 54)
+        Me.cbprovinciaCli.Location = New System.Drawing.Point(91, 54)
         Me.cbprovinciaCli.Name = "cbprovinciaCli"
-        Me.cbprovinciaCli.Size = New System.Drawing.Size(302, 21)
+        Me.cbprovinciaCli.Size = New System.Drawing.Size(277, 24)
         Me.cbprovinciaCli.TabIndex = 2
         '
         'Label5
         '
         Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(15, 29)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(27, 13)
+        Me.Label5.Size = New System.Drawing.Size(39, 16)
         Me.Label5.TabIndex = 1
         Me.Label5.Text = "Pais"
         '
         'cbpaisCli
         '
         Me.cbpaisCli.FormattingEnabled = True
-        Me.cbpaisCli.Location = New System.Drawing.Point(79, 27)
+        Me.cbpaisCli.Location = New System.Drawing.Point(91, 27)
         Me.cbpaisCli.Name = "cbpaisCli"
-        Me.cbpaisCli.Size = New System.Drawing.Size(302, 21)
+        Me.cbpaisCli.Size = New System.Drawing.Size(277, 24)
         Me.cbpaisCli.TabIndex = 0
         '
         'btnguardarCli
@@ -255,6 +282,8 @@ Partial Class Cliente
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.compravent.My.Resources.Resources.fondoform
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(641, 316)
         Me.Controls.Add(Me.btncancelarCli)
         Me.Controls.Add(Me.btnguardarCli)
@@ -267,6 +296,9 @@ Partial Class Cliente
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.DoubleBuffered = True
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
         Me.Name = "Cliente"
         Me.Text = "Cliente"
         Me.GroupBox1.ResumeLayout(False)
