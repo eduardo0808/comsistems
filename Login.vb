@@ -27,7 +27,7 @@ Public Class Login
             CMprincipal.Show()
             Me.Hide()
         Else
-            MsgBox("Incorrecto")
+            ' MsgBox("Incorrecto")
         End If
     End Sub
 
