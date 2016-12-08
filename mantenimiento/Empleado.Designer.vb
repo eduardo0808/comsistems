@@ -30,20 +30,24 @@ Partial Class Empleado
         Me.txtapellidoEm = New System.Windows.Forms.TextBox()
         Me.txtcedulaEm = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.LinkLabel4 = New System.Windows.Forms.LinkLabel()
+        Me.LinkLabel3 = New System.Windows.Forms.LinkLabel()
+        Me.LinkLabel2 = New System.Windows.Forms.LinkLabel()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtcasaEm = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtcalleEm = New System.Windows.Forms.TextBox()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
-        Me.ComboBox4 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox3 = New System.Windows.Forms.ComboBox()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
-        Me.cbpaisEm = New System.Windows.Forms.ComboBox()
+        Me.cbsector = New System.Windows.Forms.ComboBox()
+        Me.cbmunicipio = New System.Windows.Forms.ComboBox()
+        Me.cbprovincia = New System.Windows.Forms.ComboBox()
+        Me.cbpais = New System.Windows.Forms.ComboBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.txttelefonoEm = New System.Windows.Forms.TextBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label13 = New System.Windows.Forms.Label()
@@ -114,18 +118,22 @@ Partial Class Empleado
         '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.LinkLabel4)
+        Me.GroupBox1.Controls.Add(Me.LinkLabel3)
+        Me.GroupBox1.Controls.Add(Me.LinkLabel2)
+        Me.GroupBox1.Controls.Add(Me.LinkLabel1)
         Me.GroupBox1.Controls.Add(Me.Label3)
-        Me.GroupBox1.Controls.Add(Me.TextBox2)
+        Me.GroupBox1.Controls.Add(Me.txtcasaEm)
         Me.GroupBox1.Controls.Add(Me.Label2)
-        Me.GroupBox1.Controls.Add(Me.TextBox1)
+        Me.GroupBox1.Controls.Add(Me.txtcalleEm)
         Me.GroupBox1.Controls.Add(Me.Label12)
         Me.GroupBox1.Controls.Add(Me.Label11)
         Me.GroupBox1.Controls.Add(Me.Label10)
         Me.GroupBox1.Controls.Add(Me.Label9)
-        Me.GroupBox1.Controls.Add(Me.ComboBox4)
-        Me.GroupBox1.Controls.Add(Me.ComboBox3)
-        Me.GroupBox1.Controls.Add(Me.ComboBox2)
-        Me.GroupBox1.Controls.Add(Me.cbpaisEm)
+        Me.GroupBox1.Controls.Add(Me.cbsector)
+        Me.GroupBox1.Controls.Add(Me.cbmunicipio)
+        Me.GroupBox1.Controls.Add(Me.cbprovincia)
+        Me.GroupBox1.Controls.Add(Me.cbpais)
         Me.GroupBox1.Location = New System.Drawing.Point(36, 123)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(586, 168)
@@ -133,37 +141,77 @@ Partial Class Empleado
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Dirección"
         '
+        'LinkLabel4
+        '
+        Me.LinkLabel4.AutoSize = True
+        Me.LinkLabel4.Location = New System.Drawing.Point(217, 118)
+        Me.LinkLabel4.Name = "LinkLabel4"
+        Me.LinkLabel4.Size = New System.Drawing.Size(29, 13)
+        Me.LinkLabel4.TabIndex = 15
+        Me.LinkLabel4.TabStop = True
+        Me.LinkLabel4.Text = "New"
+        '
+        'LinkLabel3
+        '
+        Me.LinkLabel3.AutoSize = True
+        Me.LinkLabel3.Location = New System.Drawing.Point(217, 90)
+        Me.LinkLabel3.Name = "LinkLabel3"
+        Me.LinkLabel3.Size = New System.Drawing.Size(29, 13)
+        Me.LinkLabel3.TabIndex = 14
+        Me.LinkLabel3.TabStop = True
+        Me.LinkLabel3.Text = "New"
+        '
+        'LinkLabel2
+        '
+        Me.LinkLabel2.AutoSize = True
+        Me.LinkLabel2.Location = New System.Drawing.Point(217, 58)
+        Me.LinkLabel2.Name = "LinkLabel2"
+        Me.LinkLabel2.Size = New System.Drawing.Size(29, 13)
+        Me.LinkLabel2.TabIndex = 13
+        Me.LinkLabel2.TabStop = True
+        Me.LinkLabel2.Text = "New"
+        '
+        'LinkLabel1
+        '
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.Location = New System.Drawing.Point(341, 27)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(29, 13)
+        Me.LinkLabel1.TabIndex = 12
+        Me.LinkLabel1.TabStop = True
+        Me.LinkLabel1.Text = "New"
+        '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(410, 130)
+        Me.Label3.Location = New System.Drawing.Point(347, 111)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(31, 13)
         Me.Label3.TabIndex = 11
         Me.Label3.Text = "Casa"
         '
-        'TextBox2
+        'txtcasaEm
         '
-        Me.TextBox2.Location = New System.Drawing.Point(480, 123)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 10
+        Me.txtcasaEm.Location = New System.Drawing.Point(397, 111)
+        Me.txtcasaEm.Name = "txtcasaEm"
+        Me.txtcasaEm.Size = New System.Drawing.Size(100, 20)
+        Me.txtcasaEm.TabIndex = 10
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(237, 130)
+        Me.Label2.Location = New System.Drawing.Point(348, 69)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(30, 13)
         Me.Label2.TabIndex = 9
         Me.Label2.Text = "Calle"
         '
-        'TextBox1
+        'txtcalleEm
         '
-        Me.TextBox1.Location = New System.Drawing.Point(273, 123)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 8
+        Me.txtcalleEm.Location = New System.Drawing.Point(397, 69)
+        Me.txtcalleEm.Name = "txtcalleEm"
+        Me.txtcalleEm.Size = New System.Drawing.Size(100, 20)
+        Me.txtcalleEm.TabIndex = 8
         '
         'Label12
         '
@@ -201,37 +249,37 @@ Partial Class Empleado
         Me.Label9.TabIndex = 4
         Me.Label9.Text = "Pais"
         '
-        'ComboBox4
+        'cbsector
         '
-        Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Location = New System.Drawing.Point(90, 118)
-        Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox4.TabIndex = 3
+        Me.cbsector.FormattingEnabled = True
+        Me.cbsector.Location = New System.Drawing.Point(90, 118)
+        Me.cbsector.Name = "cbsector"
+        Me.cbsector.Size = New System.Drawing.Size(121, 21)
+        Me.cbsector.TabIndex = 3
         '
-        'ComboBox3
+        'cbmunicipio
         '
-        Me.ComboBox3.FormattingEnabled = True
-        Me.ComboBox3.Location = New System.Drawing.Point(90, 87)
-        Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox3.TabIndex = 2
+        Me.cbmunicipio.FormattingEnabled = True
+        Me.cbmunicipio.Location = New System.Drawing.Point(90, 87)
+        Me.cbmunicipio.Name = "cbmunicipio"
+        Me.cbmunicipio.Size = New System.Drawing.Size(121, 21)
+        Me.cbmunicipio.TabIndex = 2
         '
-        'ComboBox2
+        'cbprovincia
         '
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Location = New System.Drawing.Point(90, 55)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox2.TabIndex = 1
+        Me.cbprovincia.FormattingEnabled = True
+        Me.cbprovincia.Location = New System.Drawing.Point(90, 55)
+        Me.cbprovincia.Name = "cbprovincia"
+        Me.cbprovincia.Size = New System.Drawing.Size(121, 21)
+        Me.cbprovincia.TabIndex = 1
         '
-        'cbpaisEm
+        'cbpais
         '
-        Me.cbpaisEm.FormattingEnabled = True
-        Me.cbpaisEm.Location = New System.Drawing.Point(90, 19)
-        Me.cbpaisEm.Name = "cbpaisEm"
-        Me.cbpaisEm.Size = New System.Drawing.Size(245, 21)
-        Me.cbpaisEm.TabIndex = 0
+        Me.cbpais.FormattingEnabled = True
+        Me.cbpais.Location = New System.Drawing.Point(90, 19)
+        Me.cbpais.Name = "cbpais"
+        Me.cbpais.Size = New System.Drawing.Size(245, 21)
+        Me.cbpais.TabIndex = 0
         '
         'Label4
         '
@@ -242,12 +290,12 @@ Partial Class Empleado
         Me.Label4.TabIndex = 13
         Me.Label4.Text = "Telefono"
         '
-        'TextBox3
+        'txttelefonoEm
         '
-        Me.TextBox3.Location = New System.Drawing.Point(115, 98)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(122, 20)
-        Me.TextBox3.TabIndex = 14
+        Me.txttelefonoEm.Location = New System.Drawing.Point(115, 98)
+        Me.txttelefonoEm.Name = "txttelefonoEm"
+        Me.txttelefonoEm.Size = New System.Drawing.Size(122, 20)
+        Me.txttelefonoEm.TabIndex = 14
         '
         'GroupBox2
         '
@@ -320,7 +368,7 @@ Partial Class Empleado
         Me.Controls.Add(Me.btnCancelarEm)
         Me.Controls.Add(Me.btnGuardarEm)
         Me.Controls.Add(Me.GroupBox2)
-        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.txttelefonoEm)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.txtcedulaEm)
@@ -349,19 +397,19 @@ Partial Class Empleado
     Friend WithEvents txtcedulaEm As System.Windows.Forms.TextBox
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents txtcasaEm As System.Windows.Forms.TextBox
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents txtcalleEm As System.Windows.Forms.TextBox
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents Label9 As System.Windows.Forms.Label
-    Friend WithEvents ComboBox4 As System.Windows.Forms.ComboBox
-    Friend WithEvents ComboBox3 As System.Windows.Forms.ComboBox
-    Friend WithEvents ComboBox2 As System.Windows.Forms.ComboBox
-    Friend WithEvents cbpaisEm As System.Windows.Forms.ComboBox
+    Friend WithEvents cbsector As System.Windows.Forms.ComboBox
+    Friend WithEvents cbmunicipio As System.Windows.Forms.ComboBox
+    Friend WithEvents cbprovincia As System.Windows.Forms.ComboBox
+    Friend WithEvents cbpais As System.Windows.Forms.ComboBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
+    Friend WithEvents txttelefonoEm As System.Windows.Forms.TextBox
     Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents Label13 As System.Windows.Forms.Label
@@ -369,4 +417,8 @@ Partial Class Empleado
     Friend WithEvents txtusuarioEm As System.Windows.Forms.TextBox
     Friend WithEvents btnGuardarEm As System.Windows.Forms.Button
     Friend WithEvents btnCancelarEm As System.Windows.Forms.Button
+    Friend WithEvents LinkLabel4 As System.Windows.Forms.LinkLabel
+    Friend WithEvents LinkLabel3 As System.Windows.Forms.LinkLabel
+    Friend WithEvents LinkLabel2 As System.Windows.Forms.LinkLabel
+    Friend WithEvents LinkLabel1 As System.Windows.Forms.LinkLabel
 End Class

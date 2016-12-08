@@ -23,3 +23,5 @@ D:\comsistems\obj\x86\Debug\compravent.CMprincipal.resources
 D:\comsistems\obj\x86\Debug\compravent.Login.resources
 D:\comsistems\obj\x86\Debug\compravent.rusuario.resources
 D:\comsistems\obj\x86\Debug\compravent.Empleado.resources
+D:\comsistems\obj\x86\Debug\compravent.Pais.resources
+D:\comsistems\obj\x86\Debug\compravent.Provincia.resources

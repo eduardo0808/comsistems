@@ -3,6 +3,7 @@ Imports MySql.Data.MySqlClient
 
 Module conexion
     Public Conex As New MySqlConnection
+
     Sub Conectar()
         Try
             Conex.ConnectionString = "server=localhost;user id=root; password=''; database=compraventa"

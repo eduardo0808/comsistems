@@ -121,4 +121,6 @@ Public Class CMprincipal
         frmempleado.MdiParent = Me
         frmempleado.Show()
     End Sub
+
+
 End Class

@@ -76,6 +76,7 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="funciones\MDImodulo.vb" />
     <Compile Include="mantenimiento\cliente.Designer.vb">
       <DependentUpon>cliente.vb</DependentUpon>
     </Compile>
@@ -100,6 +101,18 @@
       <DependentUpon>Empleado.vb</DependentUpon>
     </Compile>
     <Compile Include="mantenimiento\Empleado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mantenimiento\Pais.Designer.vb">
+      <DependentUpon>Pais.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mantenimiento\Pais.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mantenimiento\Provincia.Designer.vb">
+      <DependentUpon>Provincia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mantenimiento\Provincia.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -137,6 +150,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="mantenimiento\Empleado.resx">
       <DependentUpon>Empleado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mantenimiento\Pais.resx">
+      <DependentUpon>Pais.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mantenimiento\Provincia.resx">
+      <DependentUpon>Provincia.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
