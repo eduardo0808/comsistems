@@ -37,7 +37,7 @@ Public Class CMprincipal
 
 
     Private Sub ExitToolsStripMenuItem_Click(ByVal sender As Object, ByVal e As EventArgs) Handles ExitToolStripMenuItem.Click
-        Me.Close()
+        End
     End Sub
 
     Private Sub CutToolStripMenuItem_Click(ByVal sender As Object, ByVal e As EventArgs) Handles CutToolStripMenuItem.Click
@@ -81,6 +81,7 @@ Public Class CMprincipal
         For Each ChildForm As Form In Me.MdiChildren
             ChildForm.Close()
         Next
+
     End Sub
 
     Private m_ChildFormNumber As Integer
@@ -122,5 +123,12 @@ Public Class CMprincipal
         frmempleado.Show()
     End Sub
 
+    Protected Overrides Sub Finalize()
+        MyBase.Finalize()
 
+    End Sub
+
+    Private Sub CMprincipal_FormClosing(ByVal sender As Object, ByVal e As System.Windows.Forms.FormClosingEventArgs) Handles Me.FormClosing
+        End
+    End Sub
 End Class

@@ -30,12 +30,12 @@ Public Class Provincia
         'Casa = txtcasaEm.Text
         Nombre = txtnombrePro.Text
         Nota = txtnotaPro.Text
-
+        Pais = Val(cbpais.Text).ToString
         'Provinvia = cbprovincia.Text
         'Municipio = cbmunicipio.Text
         'Sector = cbsector.Text
         Try
-            sql = "insert into provincia(nombre,comentario)value('" & Nombre & "', '" & Nota & "')"
+            sql = "insert into provincia(nombre,comentario,idpais)value('" & Nombre & "', '" & Nota & "','" & Pais & "')"
             da = New MySqlDataAdapter(Sql, Conex)
             dt = New DataTable
             da.Fill(dt)

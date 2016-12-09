@@ -103,6 +103,12 @@
     <Compile Include="mantenimiento\Empleado.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="mantenimiento\Municipio.Designer.vb">
+      <DependentUpon>Municipio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mantenimiento\Municipio.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="mantenimiento\Pais.Designer.vb">
       <DependentUpon>Pais.vb</DependentUpon>
     </Compile>
@@ -150,6 +156,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="mantenimiento\Empleado.resx">
       <DependentUpon>Empleado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mantenimiento\Municipio.resx">
+      <DependentUpon>Municipio.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mantenimiento\Pais.resx">
       <DependentUpon>Pais.vb</DependentUpon>
