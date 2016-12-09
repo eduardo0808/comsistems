@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿Imports MySql.Data.MySqlClient
+Imports MySql.Data.MySqlClient
 Imports MySql.Data
 Public Class Sector
     Dim Nombre, Nota As String
@@ -27,7 +26,7 @@ Public Class Sector
         Nombre = txtsector.Text
         Nota = txtnota.Text
         Municipio = Val(cbmunicipio.Text).ToString
-               Try
+        Try
             sql = "insert into municipio(nombre,comentario,idmunicipio)value('" & Nombre & "', '" & Nota & "','" & Municipio & "')"
             da = New MySqlDataAdapter(sql, Conex)
             dt = New DataTable
@@ -49,8 +48,4 @@ Public Class Sector
         MDIempleado()
         Me.Hide()
     End Sub
-=======
-﻿Public Class Sector
-
->>>>>>> p
 End Class

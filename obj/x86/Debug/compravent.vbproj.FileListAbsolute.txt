@@ -27,3 +27,6 @@ D:\comsistems\obj\x86\Debug\compravent.Pais.resources
 D:\comsistems\obj\x86\Debug\compravent.Provincia.resources
 D:\comsistems\obj\x86\Debug\compravent.Municipio.resources
 D:\comsistems\obj\x86\Debug\compravent.Sector.resources
+C:\Users\victor marine\Documents\GitHub\comsistems\obj\x86\Debug\compravent.exe
+C:\Users\victor marine\Documents\GitHub\comsistems\obj\x86\Debug\compravent.xml
+C:\Users\victor marine\Documents\GitHub\comsistems\obj\x86\Debug\compravent.pdb
