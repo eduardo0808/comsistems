@@ -44,7 +44,7 @@ Partial Class Provincia
         Me.Panel1.Controls.Add(Me.cbpais)
         Me.Panel1.Controls.Add(Me.txtnotaPro)
         Me.Panel1.Controls.Add(Me.txtnombrePro)
-        Me.Panel1.Location = New System.Drawing.Point(59, 46)
+        Me.Panel1.Location = New System.Drawing.Point(32, 43)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(381, 207)
         Me.Panel1.TabIndex = 0

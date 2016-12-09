@@ -70,7 +70,7 @@ Public Class Empleado
         Dim DA As New MySqlDataAdapter
         Dim DT As New DataTable
         Try
-            DA = New MySqlDataAdapter("select * from minicipio", Conex)
+            DA = New MySqlDataAdapter("select * from municipio", Conex)
             DA.Fill(DT)
             cbmunicipio.DataSource = DT
             cbmunicipio.DisplayMember = "nombre"
@@ -88,7 +88,7 @@ Public Class Empleado
             DA.Fill(DT)
             cbsector.DataSource = DT
             cbsector.DisplayMember = "nombre"
-            cbsector.ValueMember = "idmunicipio"
+            cbsector.ValueMember = "idsector"
         Catch ex As Exception
 
         End Try
@@ -115,5 +115,14 @@ Public Class Empleado
     Private Sub LinkLabel2_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel2.LinkClicked
         MDIprovincia()
         Me.Hide()
+    End Sub
+
+    Private Sub LinkLabel3_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel3.LinkClicked
+        MDImunicipio()
+        Me.Hide()
+    End Sub
+
+    Private Sub LinkLabel4_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel4.LinkClicked
+        ' MDIsector()
     End Sub
 End Class

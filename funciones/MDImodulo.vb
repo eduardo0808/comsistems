@@ -14,5 +14,15 @@
         frmprovincia.MdiParent = CMprincipal
         frmprovincia.Show()
     End Sub
+    Sub MDImunicipio()
+        Dim frm As New Municipio
+        frm.MdiParent = CMprincipal
+        frm.Show()
+    End Sub
+    ' Sub MDIsector()
+    'Dim frm As New Sector
+    '   frm.MdiParent = CMprincipal
+    '  frm.Show()
+    ' End Sub
 
 End Module
