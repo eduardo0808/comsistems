@@ -121,6 +121,10 @@
     <Compile Include="mantenimiento\Provincia.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="mantenimiento\Sector.Designer.vb">
+      <DependentUpon>Sector.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mantenimiento\Sector.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -165,6 +169,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="mantenimiento\Provincia.resx">
       <DependentUpon>Provincia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mantenimiento\Sector.resx">
+      <DependentUpon>Sector.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
