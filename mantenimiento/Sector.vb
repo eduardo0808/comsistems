@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿Imports MySql.Data.MySqlClient
 Imports MySql.Data
 Public Class Sector
@@ -48,4 +49,8 @@ Public Class Sector
         MDIempleado()
         Me.Hide()
     End Sub
+=======
+﻿Public Class Sector
+
+>>>>>>> p
 End Class

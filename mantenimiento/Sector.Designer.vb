@@ -22,6 +22,7 @@ Partial Class Sector
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+<<<<<<< HEAD
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.btncancelar = New System.Windows.Forms.Button()
         Me.btnguardarPro = New System.Windows.Forms.Button()
@@ -138,4 +139,10 @@ Partial Class Sector
     Friend WithEvents cbmunicipio As System.Windows.Forms.ComboBox
     Friend WithEvents txtnota As System.Windows.Forms.TextBox
     Friend WithEvents txtsector As System.Windows.Forms.TextBox
+=======
+        components = New System.ComponentModel.Container
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.Text = "Sector"
+    End Sub
+>>>>>>> p
 End Class
