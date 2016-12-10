@@ -22,7 +22,16 @@ Partial Class Sector
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+<<<<<<< HEAD
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+=======
+
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.btncancelar = New System.Windows.Forms.Button()
+        Me.btnguardarPro = New System.Windows.Forms.Button()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+>>>>>>> origin/master
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
@@ -100,8 +109,15 @@ Partial Class Sector
     End Sub
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
+<<<<<<< HEAD
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
+=======
+    Friend WithEvents cbmunicipio As System.Windows.Forms.ComboBox
+    Friend WithEvents txtnota As System.Windows.Forms.TextBox
+    Friend WithEvents txtsector As System.Windows.Forms.TextBox
+
+>>>>>>> origin/master
 End Class
