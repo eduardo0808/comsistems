@@ -121,12 +121,6 @@
     <Compile Include="mantenimiento\Provincia.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="mantenimiento\Sector.Designer.vb">
-      <DependentUpon>Sector.vb</DependentUpon>
-    </Compile>
-    <Compile Include="mantenimiento\Sector.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>

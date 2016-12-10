@@ -12,11 +12,11 @@ Public Class Municipio
         Dim DA As New MySqlDataAdapter
         Dim DT As New DataTable
         Try
-            DA = New MySqlDataAdapter("select * from municipio", Conex)
+            DA = New MySqlDataAdapter("select * from provincia", Conex)
             DA.Fill(DT)
             cbprovinciaMc.DataSource = DT
             cbprovinciaMc.DisplayMember = "nombre"
-            cbprovinciaMc.ValueMember = "idmunicipio"
+            cbprovinciaMc.ValueMember = "idprovincia"
         Catch ex As Exception
 
         End Try
