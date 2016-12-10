@@ -123,6 +123,6 @@ Public Class Empleado
     End Sub
 
     Private Sub LinkLabel4_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs) Handles LinkLabel4.LinkClicked
-        ' MDIsector()
+        MDIsector()
     End Sub
 End Class
